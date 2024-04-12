@@ -1,0 +1,11 @@
+RDS - Endpoint project1rdsdb.cnuimswkmwty.us-east-1.rds.amazonaws.com
+
+
+Pgadmin4 code:
+INSERT INTO public.restaurant(
+	id, name, city, locality, thumb, aggregate_rating, rating_text, min_price)
+	VALUES (102, 'MMR', 'Coimbatore', 'RS Puram', 'blank', '4','Very Good', 230);
+
+SELECT id, name, city, locality, thumb, aggregate_rating, rating_text, min_price
+	FROM public.restaurant;
+
